@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{	
+   margin:0;
+}
+
+a:hover{
+	color:#fff;
+	}
+.container-news{
+	margin-left:10%!important;
+	margin-right:10%!important;
+	}
+@media (max-width: 850px) {
+  .menu{
+	  display:none;
+	  }
+}
+/*NAV HEADER*/
+header{
+	border-bottom: 2px solid #f4f4f4;
+	}
+.menu-fixed {
+	background:#f1f1f1;
+	position:fixed;
+	z-index:1000;
+	top:0;
+	left:0;
+	width:100%;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+    }
+
+#nav-dots ul{
+	overflow: hidden;              /*                 Estilo del nav               */
+	border-bottom:0!important;     /*                 Estilo del nav               */
+    }                              
+#nav-dots li{
+	display:inline-block;          /*                 Estilo del nav               */
+	width:8%;                      /*                 Estilo del nav               */
+	overflow: hidden;
+    }
+
+#nav-op1{
+	border-bottom: 2px solid #03BEFC;   /*                 Estilo del nav               */
+	}
+#nav-op1:hover{
+	background:#03BEFC;            /*                 Estilo del nav               */
+	color:#fff;                    /*                 Estilo del nav               */
+	}
+
+#nav-op2{
+	border-bottom: 2px solid #FC4103;    /*                 Estilo del nav               */
+	}
+#nav-op2:hover{
+	background:#FC4103;                  /*                 Estilo del nav               */
+	}
+	
+#nav-op3{
+	border-bottom: 2px solid #42FC03;     /*                 Estilo del nav               */  
+	}
+#nav-op3:hover{
+	background:#42FC03;                                 /*                 Estilo del nav               */
+	}
+	
+#nav-op4{
+	border-bottom: 2px solid #C000FF;           /*                 Estilo del navegador               */ 
+	}
+#nav-op4:hover{
+	background:#C000FF;                         /*                 Estilo del navegador               */
+	}
+
+/*NAV HEADER END*/
+
+/*SLIDER CUSTOM*/
+
+/*AHORA*/
+#slidernwes{
+position: relative;
+overflow: hidden;
+ 
+margin: 0 auto;
+padding: 0;
+}
+#slidernwes p {
+position: absolute;
+bottom: 30px;
+left: 0;
+display: block;
+height: 24px;
+margin:0;
+padding: 5px 0;
+color: #eee;
+background: #990000;
+font-size: 22px;
+line-height:22px;
+text-align:center;
+}
+/*SLIDER CUSTOM*/
+
+/*SLIDER PRINCIPAL*/
+
+#slideshow{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+#slideshow .thumb{
+	width: 49%;
+	float: left;
+	margin-right:2%;
+}
+#slideshow article{
+	float: left;
+	font-family: 'open sans', arial, helvetica, sans-serif;
+	font-size: 2rem;
+	text-align: justify;
+	width: 49%;
+	color: #000;
+}
+#slideshow article h2{
+	font-family: 'raleway', helvetica, arial, sans-serif;
+}
+#slideshow article .date{
+	display: inline-block;
+	font-family: 'raleway', helvetica, arial, sans-serif;
+}
+#slideshow .slidesjs-pagination li{
+	background: #000;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	display: inline-block;
+}
+#slideshow .slidesjs-pagination li a{
+	width: 20px;
+	height: 20px;
+	display: block;
+	font-size: 0pt;
+}
+#slideshow .slidesjs-pagination li .active{
+	background: #333333;
+}
+.extract{
+	padding: 20px;
+}
+/*SLIDER PRINCIPAL*/
+
+
+/*ULTIMAS NOTICIAS*/
+.last-news h1{
+	background:#13778d;
+	text-align:center; 
+	padding:20px; 
+	color:#fff;
+	}
+.cuadnot{
+	position:relative; width:100%; margin-bottom:10px;
+	}
+.cuadnot img{
+	width:100%;
+	}
+.contnew{
+	position:absolute; 
+	top: 100px; 
+	left: 0; 
+	width: 100%; 
+	background: rgba(0, 0, 0, 0.5); 
+	padding:12px;
+	}
+.contnew h3, p{
+	color:#fff;
+    }
+/*ULTIMAS NOTICIAS*/
+
+/*REDES SOCIALES*/
+.facebook{
+	margin-top:15px;
+	}
+.facebook img{
+	width:100%;
+    }
+.youtube{
+	margin-top:15px;
+	}
+.twitter{
+	margin-top:15px;
+	width:100%; 
+	height:315px; 
+	}
+
+/*REDES SOCIALES*/
+
+
+/*DESTACADAS*/
+.destacado{
+	padding:10px;
+	}
+#w h1{
+	text-align:center; 
+	background:#13778d; 
+	padding:20px; 
+	color:#fff;
+	}
+/** posts slider widget **/
+.crsl-items {
+  display: block;
+  padding: 5px;
+  padding-left:10px; 
+  padding-right:10px;
+  }
+
+.crsl-item {
+  background: #fff;
+  padding: 8px;
+  -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+  box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+}
+
+.crsl-item .thumbnail {
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.crsl-item .thumbnail img { 
+  display: block; /* fix 1px image space http://stackoverflow.com/q/5804256/477958 */
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.crsl-item .thumbnail:hover img {
+  opacity: 0.8;
+}
+
+.crsl-item h3 {
+  font-family: 'Oswald', 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: 1.95em;
+  line-height: 1.25em;
+  margin-bottom: 12px;
+}
+.crsl-item h3 a {
+  text-decoration: none;
+  color: #333;
+}
+.crsl-item h3 a:hover {
+  text-decoration: underline;
+}
+
+.crsl-item .postdate {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 6px;
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+  font-size: 1.2em;
+  font-weight: bold;
+  background: #13778d;
+}
+
+.crsl-item p {
+  font-size: 1.2em;
+  line-height: 1.55em;
+  margin-bottom: 5px;
+}
+
+.crsl-item p.readmore a {
+  display: block;
+  float: right;
+  color: #13778d;
+  padding: 3px 5px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.crsl-item p.readmore a:hover {
+  background: #4b6caa;
+  color: #fff;
+}
+
+
+/** posts slider nav **/
+.slidernav {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.slidernav a {
+  display: inline-block;
+  padding: 5px 8px;
+  margin-right: 8px;
+  font-size: 1.4em;
+/*  background: #fff;*/
+  color: #13778d;
+  text-decoration: none;
+  /*-webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 0px rgba(0,0,0,0.2);*/
+}
+
+/** media queries **/
+@media screen and (max-width: 660px) {
+  h1 { font-size: 2.4em; line-height: 1.2em; }
+  
+  .crsl-item h3 { font-size: 1.65em; }
+}
+
+/** clearfix **/
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+ 
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+
